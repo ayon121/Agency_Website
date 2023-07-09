@@ -148,3 +148,38 @@
     margin-top: 10px;
     margin-right: 10px;
 }
+
+/* appoinment section started */
+.phone-call {
+    display: flex;
+    align-items: center;
+}
+
+.phone-call h5 {
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+}
+.appointment-container {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    background-color: red;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: -40px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.appoinment-descripton {
+    width: 70%;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.btn-appoinmnet {
+    margin-top: 0px;
+    border-radius: 10px;
+    border: none;
+}
