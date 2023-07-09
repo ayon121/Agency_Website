@@ -183,3 +183,42 @@
     border-radius: 10px;
     border: none;
 }
+
+/* Blog Section Started */
+.blog-title {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* card design started here */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.card {
+    width: 300px;
+    height: 400px;
+    box-shadow: 4px 4px 4px 4px gray ;
+    border-radius: 20px;
+
+}
+
+.card-image {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card-description {
+    text-align: center;
+    margin: 10px;
+    line-height: 20px;
+}
