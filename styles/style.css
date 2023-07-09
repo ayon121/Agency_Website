@@ -73,12 +73,78 @@
 
 /* Service section started */
 .service-container {
-    width: 100%;
     height: 100vh;
     background-image: url('../asset/image/footer-bg.png'),linear-gradient(rgb(12, 12, 12) , rgba(19, 18, 18, 0.897));
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: aliceblue;
+    color: rgb(253, 253, 253);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.service-title {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.service-description{
+    width: 85%;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.service-list {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    line-height: 20px;
+}
+.box-image {
+    width: 70px;
+
+}
+
+.box {
+    text-align: center;
+    width: 150px;
+    height: 120px;
+    padding: 30px;
+    background-color: rgb(250, 252, 253);
+    color: black;
+    border-radius: 6px;
+    box-shadow: 4px 4px 4px 4px gray;
+
+}
+
+.first-two-boxs {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.author-container {
+    display: flex;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-container {
+    border-right: 2px solid red;
+    padding-right: 20px;
+    margin-right: 10px;
+}
+
+.profile-info img {
+    width: 70px;
+    border: none;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 10px;
 }
