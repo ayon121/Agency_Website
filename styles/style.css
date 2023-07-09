@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* All primary styles */
+
+.primary-color {
+    color: red;
+}
+/* it is menu and logo part */
+.nav-container {
+    display: flex;
+    background-color: rgb(160, 158, 158);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.menus {
+    display: flex;
+    gap : 20px
+}
+.menus li {
+    list-style: none;
+    /* padding-left: 30px; */
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* banner part started */
+.banner-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../asset/image/background.jpg'),linear-gradient(rgba(12, 12, 12, 0) , rgba(19, 18, 18, 0.788));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-info {
+    text-align: center;
+}
+
+.banner-info h1 {
+    color: antiquewhite;
+    font-size: 90px;
+}
+.banner-description {
+    width: 50%;
+    margin: auto;
+    color:white;
+    line-height: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+}
+
+.bg-primary {
+    background-color: red;
+    color: white;
+}
+
+/* Service section started */
+.service-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../asset/image/footer-bg.png'),linear-gradient(rgb(12, 12, 12) , rgba(19, 18, 18, 0.897));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
